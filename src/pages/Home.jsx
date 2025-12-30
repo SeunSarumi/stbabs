@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <Section>
-        <h1>STBABS Private Hire Taxi Service</h1>
+        <h1>ST BABS Private Hire Taxi Service</h1>
         <p>Serving Northampton & surrounding areas</p>
 
         <ul>
