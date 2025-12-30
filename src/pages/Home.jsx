@@ -1,8 +1,23 @@
+import Cta from "../components/Cta";
+import Section from "../components/Section";
+
 function Home() {
   return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
+    <>
+      <Section>
+        <h1>Saint Babs Private Hire Taxi Service</h1>
+        <p>Serving Northampton & surrounding areas</p>
+
+        <ul>
+          <li>Licensed & insured</li>
+          <li>24/7 pre-booked journeys</li>
+          <li>Fixed prices, no surge</li>
+          <li>Clean & comfortable vehicle</li>
+        </ul>
+
+        <Cta />
+      </Section>
+    </>
   );
 }
 
